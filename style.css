@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background: #f0ffff;
+  font-family: Exo, sans-serif;
+}
+#registerForm {
+  width: 400px;
+  background: #24203c;
+  padding: 30px;
+  color: #fff;
+  border-radius: 3px;
+}
+#registerForm h4 {
+  font-style: 22px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+#txtBox {
+  background: #24203c;
+  border: 1px solid #1f53c5;
+  font-size: 18px;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+#registerForm p {
+  float: left;
+  font-size: 18px;
+  margin: 0 10px 10px 10px;
+}
+#registerForm a {
+  font-size: 18px;
+  color: #fff;
+}
+center {
+  font-size: 18px;
+}
+
+center a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+#btn {
+  width: 100%;
+  background: #1f53c5;
+  margin: 16px 0;
+  font-size: 18px;
+  padding: 12px;
+}
